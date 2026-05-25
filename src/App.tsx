@@ -262,12 +262,11 @@ function Hero() {
           </p>
 
           <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] lg:leading-[1.15] font-bold text-white leading-tight mb-5">
-            БАДы и витамины мировых брендов с доставкой по Казахстану
+            NOW KZ - дистрибьютор ведущих мировых брендов БАДов в Казахстане
           </h1>
 
           <p className="text-base sm:text-lg text-white/60 leading-relaxed mb-4 max-w-xl">
-            NOW, Sambucol, Life Extension, Doctor's Best — проверенные витамины и добавки для
-            иммунитета, энергии, сердца, суставов, сна и красоты.
+            Прямые поставки БАДов и спортивного питания от производителей. Для продавцов маркетплейсов, интернет-магазинов, аптек и торговых сетей.
           </p>
 
           <p className="text-sm text-white/40 mb-8">
@@ -297,7 +296,7 @@ function Hero() {
 
 /* ─── Why Choose Us ─── */
 const advantages = [
-  { icon: ShieldCheck, title: 'Только оригинальные БАДы из США' },
+  { icon: ShieldCheck, title: 'Гарантия 100% оригинальности' },
   { icon: Leaf, title: 'Популярные бренды: NOW, Sambucol, Life Extension, Doctor\'s Best' },
   { icon: CheckCircle2, title: 'Сертификаты качества и контроль поставок' },
   { icon: Truck, title: 'Быстрая доставка по Казахстану' },
@@ -370,7 +369,7 @@ function Brands() {
         <AnimatedSection>
           <div className="text-center mb-10">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-neutral-900 mb-4">
-              Бренды, которым доверяют
+              Бренды, которые мы поставляем
             </h2>
             <div className="w-16 h-1 bg-primary-500 mx-auto rounded-full" />
           </div>
@@ -595,7 +594,7 @@ const deliverySteps = [
     icon: CheckCircle2,
     step: '04',
     title: 'Получите оригинал',
-    desc: 'Все товары с сертификатами качества, актуальными сроками годности и в надёжной упаковке.',
+    desc: 'Все товары с сопроводительными документами, актуальными сроками годности и в надёжной упаковке.',
   },
 ];
 
